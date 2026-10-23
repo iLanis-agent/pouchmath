@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "pouches",
+   "args": [
+    "440",
+    "12"
+   ],
+   "expect": "The 440 almonds at 12 almonds a pouch take 37 pouches, the last pouch holding 8 almonds."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "440",
+    "32"
+   ],
+   "expect": "The 440 almonds at 32 almonds a week last 13 full weeks with 24 almonds left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "37",
+    "4.80",
+    "440"
+   ],
+   "expect": "The 37 pouches at $4.80 a pouch come to $177.60, $0.40 an almond."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "440",
+    "7"
+   ],
+   "expect": "The 440 almonds at 7 almonds a minute take 63 minutes, 1 hour 3 minutes."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 almond at 1 almond a pouch takes 1 pouch, the last pouch holding 1 almond."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "360",
+    "8"
+   ],
+   "expect": "The 360 almonds at 8 almonds a pouch take 45 pouches, the last pouch holding 8 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 almonds at 1000 almonds a pouch take 1000 pouches, the last pouch holding 1000 almonds."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 almond at 1 almond a week lasts 1 full week with 0 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "360",
+    "30"
+   ],
+   "expect": "The 360 almonds at 30 almonds a week last 12 full weeks with 0 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 almonds at 100000 almonds a week last 10 full weeks with 0 almonds left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 pouch at $0.01 a pouch comes to $0.01, $0.01 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 pouches at $999.99 a pouch come to $99999000.00, $100.00 an almond."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 almond at 1 almond a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 almonds at 1 almond a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 almonds at 100 almonds a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "708210",
+    "211"
+   ],
+   "expect": "The 708210 almonds at 211 almonds a pouch take 3357 pouches, the last pouch holding 94 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "623026",
+    "12"
+   ],
+   "expect": "The 623026 almonds at 12 almonds a pouch take 51919 pouches, the last pouch holding 10 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "216543",
+    "870"
+   ],
+   "expect": "The 216543 almonds at 870 almonds a pouch take 249 pouches, the last pouch holding 783 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "179427",
+    "176"
+   ],
+   "expect": "The 179427 almonds at 176 almonds a pouch take 1020 pouches, the last pouch holding 83 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "429581",
+    "831"
+   ],
+   "expect": "The 429581 almonds at 831 almonds a pouch take 517 pouches, the last pouch holding 785 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "541446",
+    "944"
+   ],
+   "expect": "The 541446 almonds at 944 almonds a pouch take 574 pouches, the last pouch holding 534 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "907241",
+    "843"
+   ],
+   "expect": "The 907241 almonds at 843 almonds a pouch take 1077 pouches, the last pouch holding 173 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "30610",
+    "340"
+   ],
+   "expect": "The 30610 almonds at 340 almonds a pouch take 91 pouches, the last pouch holding 10 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "300182",
+    "232"
+   ],
+   "expect": "The 300182 almonds at 232 almonds a pouch take 1294 pouches, the last pouch holding 206 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "636611",
+    "688"
+   ],
+   "expect": "The 636611 almonds at 688 almonds a pouch take 926 pouches, the last pouch holding 211 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "285066",
+    "298"
+   ],
+   "expect": "The 285066 almonds at 298 almonds a pouch take 957 pouches, the last pouch holding 178 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "179567",
+    "149"
+   ],
+   "expect": "The 179567 almonds at 149 almonds a pouch take 1206 pouches, the last pouch holding 22 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "270574",
+    "536"
+   ],
+   "expect": "The 270574 almonds at 536 almonds a pouch take 505 pouches, the last pouch holding 430 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "582990",
+    "461"
+   ],
+   "expect": "The 582990 almonds at 461 almonds a pouch take 1265 pouches, the last pouch holding 286 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "584089",
+    "660"
+   ],
+   "expect": "The 584089 almonds at 660 almonds a pouch take 885 pouches, the last pouch holding 649 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "74411",
+    "578"
+   ],
+   "expect": "The 74411 almonds at 578 almonds a pouch take 129 pouches, the last pouch holding 427 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "353664",
+    "16"
+   ],
+   "expect": "The 353664 almonds at 16 almonds a pouch take 22104 pouches, the last pouch holding 16 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "63498",
+    "744"
+   ],
+   "expect": "The 63498 almonds at 744 almonds a pouch take 86 pouches, the last pouch holding 258 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "612572",
+    "389"
+   ],
+   "expect": "The 612572 almonds at 389 almonds a pouch take 1575 pouches, the last pouch holding 286 almonds."
+  },
+  {
+   "fn": "pouches",
+   "args": [
+    "203241",
+    "641"
+   ],
+   "expect": "The 203241 almonds at 641 almonds a pouch take 318 pouches, the last pouch holding 44 almonds."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "43804",
+    "62048"
+   ],
+   "expect": "The 43804 almonds at 62048 almonds a week last 0 full weeks with 43804 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "943470",
+    "38321"
+   ],
+   "expect": "The 943470 almonds at 38321 almonds a week last 24 full weeks with 23766 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "928589",
+    "6569"
+   ],
+   "expect": "The 928589 almonds at 6569 almonds a week last 141 full weeks with 2360 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "831589",
+    "97638"
+   ],
+   "expect": "The 831589 almonds at 97638 almonds a week last 8 full weeks with 50485 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "881140",
+    "43302"
+   ],
+   "expect": "The 881140 almonds at 43302 almonds a week last 20 full weeks with 15100 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "733854",
+    "93"
+   ],
+   "expect": "The 733854 almonds at 93 almonds a week last 7890 full weeks with 84 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "277575",
+    "12128"
+   ],
+   "expect": "The 277575 almonds at 12128 almonds a week last 22 full weeks with 10759 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "901741",
+    "88748"
+   ],
+   "expect": "The 901741 almonds at 88748 almonds a week last 10 full weeks with 14261 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "233992",
+    "35522"
+   ],
+   "expect": "The 233992 almonds at 35522 almonds a week last 6 full weeks with 20860 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "421700",
+    "46347"
+   ],
+   "expect": "The 421700 almonds at 46347 almonds a week last 9 full weeks with 4577 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "345196",
+    "59746"
+   ],
+   "expect": "The 345196 almonds at 59746 almonds a week last 5 full weeks with 46466 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "990590",
+    "44519"
+   ],
+   "expect": "The 990590 almonds at 44519 almonds a week last 22 full weeks with 11172 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "803940",
+    "83402"
+   ],
+   "expect": "The 803940 almonds at 83402 almonds a week last 9 full weeks with 53322 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "719581",
+    "14755"
+   ],
+   "expect": "The 719581 almonds at 14755 almonds a week last 48 full weeks with 11341 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "330768",
+    "33160"
+   ],
+   "expect": "The 330768 almonds at 33160 almonds a week last 9 full weeks with 32328 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "609549",
+    "91574"
+   ],
+   "expect": "The 609549 almonds at 91574 almonds a week last 6 full weeks with 60105 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "411178",
+    "45660"
+   ],
+   "expect": "The 411178 almonds at 45660 almonds a week last 9 full weeks with 238 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "152898",
+    "53211"
+   ],
+   "expect": "The 152898 almonds at 53211 almonds a week last 2 full weeks with 46476 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "526591",
+    "29083"
+   ],
+   "expect": "The 526591 almonds at 29083 almonds a week last 18 full weeks with 3097 almonds left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "3653",
+    "41897"
+   ],
+   "expect": "The 3653 almonds at 41897 almonds a week last 0 full weeks with 3653 almonds left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "97211",
+    "795.24",
+    "155349"
+   ],
+   "expect": "The 97211 pouches at $795.24 a pouch come to $77306075.64, $497.63 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "73789",
+    "701.19",
+    "785244"
+   ],
+   "expect": "The 73789 pouches at $701.19 a pouch come to $51740108.91, $65.89 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "5112",
+    "685.03",
+    "943302"
+   ],
+   "expect": "The 5112 pouches at $685.03 a pouch come to $3501873.36, $3.71 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "95430",
+    "695.03",
+    "715871"
+   ],
+   "expect": "The 95430 pouches at $695.03 a pouch come to $66326712.90, $92.65 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69822",
+    "455.7",
+    "723098"
+   ],
+   "expect": "The 69822 pouches at $455.70 a pouch come to $31817885.40, $44.00 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41945",
+    "859.66",
+    "642084"
+   ],
+   "expect": "The 41945 pouches at $859.66 a pouch come to $36058438.70, $56.16 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "12253",
+    "562.74",
+    "323018"
+   ],
+   "expect": "The 12253 pouches at $562.74 a pouch come to $6895253.22, $21.35 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "5506",
+    "796.24",
+    "903433"
+   ],
+   "expect": "The 5506 pouches at $796.24 a pouch come to $4384097.44, $4.85 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "70371",
+    "658.6",
+    "501844"
+   ],
+   "expect": "The 70371 pouches at $658.60 a pouch come to $46346340.60, $92.35 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "20661",
+    "862.4",
+    "105642"
+   ],
+   "expect": "The 20661 pouches at $862.40 a pouch come to $17818046.40, $168.66 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "96363",
+    "859.62",
+    "126501"
+   ],
+   "expect": "The 96363 pouches at $859.62 a pouch come to $82835562.06, $654.82 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "84914",
+    "481.82",
+    "693768"
+   ],
+   "expect": "The 84914 pouches at $481.82 a pouch come to $40913263.48, $58.97 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "43425",
+    "515.67",
+    "994262"
+   ],
+   "expect": "The 43425 pouches at $515.67 a pouch come to $22392969.75, $22.52 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79296",
+    "458.59",
+    "69394"
+   ],
+   "expect": "The 79296 pouches at $458.59 a pouch come to $36364352.64, $524.03 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68723",
+    "28.23",
+    "580280"
+   ],
+   "expect": "The 68723 pouches at $28.23 a pouch come to $1940050.29, $3.34 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17605",
+    "388.44",
+    "969495"
+   ],
+   "expect": "The 17605 pouches at $388.44 a pouch come to $6838486.20, $7.05 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "46680",
+    "881.01",
+    "814565"
+   ],
+   "expect": "The 46680 pouches at $881.01 a pouch come to $41125546.80, $50.49 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38718",
+    "174.37",
+    "402972"
+   ],
+   "expect": "The 38718 pouches at $174.37 a pouch come to $6751257.66, $16.75 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "74408",
+    "572.66",
+    "627279"
+   ],
+   "expect": "The 74408 pouches at $572.66 a pouch come to $42610485.28, $67.93 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "75322",
+    "826.42",
+    "202798"
+   ],
+   "expect": "The 75322 pouches at $826.42 a pouch come to $62247607.24, $306.94 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17959",
+    "675.45",
+    "656287"
+   ],
+   "expect": "The 17959 pouches at $675.45 a pouch come to $12130406.55, $18.48 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "59325",
+    "257.9",
+    "749838"
+   ],
+   "expect": "The 59325 pouches at $257.90 a pouch come to $15299917.50, $20.40 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "89464",
+    "737.28",
+    "20528"
+   ],
+   "expect": "The 89464 pouches at $737.28 a pouch come to $65960017.92, $3213.17 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "32247",
+    "179.24",
+    "666774"
+   ],
+   "expect": "The 32247 pouches at $179.24 a pouch come to $5779952.28, $8.67 an almond."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "3397",
+    "509.62",
+    "422426"
+   ],
+   "expect": "The 3397 pouches at $509.62 a pouch come to $1731179.14, $4.10 an almond."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "389465",
+    "24"
+   ],
+   "expect": "The 389465 almonds at 24 almonds a minute take 16228 minutes, 270 hours 28 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "377904",
+    "13"
+   ],
+   "expect": "The 377904 almonds at 13 almonds a minute take 29070 minutes, 484 hours 30 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "974062",
+    "95"
+   ],
+   "expect": "The 974062 almonds at 95 almonds a minute take 10254 minutes, 170 hours 54 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "492220",
+    "6"
+   ],
+   "expect": "The 492220 almonds at 6 almonds a minute take 82037 minutes, 1367 hours 17 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "384265",
+    "9"
+   ],
+   "expect": "The 384265 almonds at 9 almonds a minute take 42697 minutes, 711 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "608465",
+    "6"
+   ],
+   "expect": "The 608465 almonds at 6 almonds a minute take 101411 minutes, 1690 hours 11 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "807506",
+    "22"
+   ],
+   "expect": "The 807506 almonds at 22 almonds a minute take 36705 minutes, 611 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "903501",
+    "80"
+   ],
+   "expect": "The 903501 almonds at 80 almonds a minute take 11294 minutes, 188 hours 14 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "924869",
+    "52"
+   ],
+   "expect": "The 924869 almonds at 52 almonds a minute take 17786 minutes, 296 hours 26 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "260713",
+    "91"
+   ],
+   "expect": "The 260713 almonds at 91 almonds a minute take 2865 minutes, 47 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "753411",
+    "6"
+   ],
+   "expect": "The 753411 almonds at 6 almonds a minute take 125569 minutes, 2092 hours 49 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "781383",
+    "58"
+   ],
+   "expect": "The 781383 almonds at 58 almonds a minute take 13473 minutes, 224 hours 33 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "523557",
+    "55"
+   ],
+   "expect": "The 523557 almonds at 55 almonds a minute take 9520 minutes, 158 hours 40 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "815957",
+    "33"
+   ],
+   "expect": "The 815957 almonds at 33 almonds a minute take 24726 minutes, 412 hours 6 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "455106",
+    "43"
+   ],
+   "expect": "The 455106 almonds at 43 almonds a minute take 10584 minutes, 176 hours 24 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "644459",
+    "52"
+   ],
+   "expect": "The 644459 almonds at 52 almonds a minute take 12394 minutes, 206 hours 34 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "616374",
+    "86"
+   ],
+   "expect": "The 616374 almonds at 86 almonds a minute take 7168 minutes, 119 hours 28 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "81488",
+    "84"
+   ],
+   "expect": "The 81488 almonds at 84 almonds a minute take 971 minutes, 16 hours 11 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "237017",
+    "16"
+   ],
+   "expect": "The 237017 almonds at 16 almonds a minute take 14814 minutes, 246 hours 54 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "pouches",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "pouches",
+   [
+    "1000001",
+    "8"
+   ]
+  ],
+  [
+   "pouches",
+   [
+    "2.5",
+    "8"
+   ]
+  ],
+  [
+   "pouches",
+   [
+    "440",
+    "0"
+   ]
+  ],
+  [
+   "pouches",
+   [
+    "440",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "440",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "440",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "440",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.75",
+    "440"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "12.75",
+    "440"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "0",
+    "440"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.755",
+    "440"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "440",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "440",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "440",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
