@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pouch Math - app</title>
+<style>
+  :root { --accent:#8a5a2e; --ink:#241708; --paper:#fbf7f0; --soft:#f3e9d8; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #dcc4a0; border-radius:6px; background:#fff; color:var(--ink); }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #dcc4a0; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#b59770; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pouch Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page counts an event's roasted almonds with multiplication, division and rounding-up: the pouches the almonds take, the weeks the stock lasts, the cost an almond, and the minutes the packing takes. It uses no named constants. The almonds, the pouch size, the weekly use, the pouch price and the packing speed are yours to decide and read off your own orders, shelves and invoices. It applies the counting as written, so it has not seen your almonds, your pouches or your venue and does not know whether the almonds will really stay fresh, the supplier will run out or the price will hold, and it gives no verdict that a pouch is worth its price or an almond is right for your event. Every number here is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>The pouches truth</h2>
+    <p class="note">Pouches: the almonds divided by the almonds a pouch, rounded up, with what the last pouch holds.</p>
+    <div class="row2"><div><label for="r-n">Almonds</label><input id="r-n" type="text" value="440"></div><div><label for="r-b">Almonds a pouch</label><input id="r-b" type="text" value="12"></div></div>
+    <div class="out" id="r-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The weeks truth</h2>
+    <p class="note">Weeks: the almonds divided by the almonds used a week, with the almonds left for the next week.</p>
+    <div class="row2"><div><label for="w-n">Almonds</label><input id="w-n" type="text" value="440"></div><div><label for="w-w">Almonds a week</label><input id="w-w" type="text" value="32"></div></div>
+    <div class="out" id="w-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The cost truth</h2>
+    <p class="note">Cost: the pouches times the pouch price, to the cent, and spread over the almonds.</p>
+    <div class="row2"><div><label for="k-b">Pouches</label><input id="k-b" type="text" value="37"></div><div><label for="k-p">Pouch price ($)</label><input id="k-p" type="text" value="4.80"></div></div>
+    <div class="row2"><div><label for="k-n">Almonds</label><input id="k-n" type="text" value="440"></div></div>
+    <div class="out" id="k-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The time truth</h2>
+    <p class="note">Time: the almonds divided by the almonds packed a minute, rounded up, in minutes and in hours and minutes.</p>
+    <div class="row2"><div><label for="t-n">Almonds</label><input id="t-n" type="text" value="440"></div><div><label for="t-m">Almonds a minute</label><input id="t-m" type="text" value="7"></div></div>
+    <div class="out" id="t-out"></div>
+  </div>
+
+  <footer>Pouch Math is exact arithmetic over the numbers you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function recalc() {
+    const v = (id) => document.getElementById(id).value;
+    show("r-out", () => pouchesTruth(v("r-n"), v("r-b")));
+    show("w-out", () => weeksTruth(v("w-n"), v("w-w")));
+    show("k-out", () => costTruth(v("k-b"), v("k-p"), v("k-n")));
+    show("t-out", () => timeTruth(v("t-n"), v("t-m")));
+  }
+  document.querySelectorAll("input").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
