@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pouch Math - event roasted almond pouch, week, cost and time arithmetic</title>
+<style>
+  :root { --accent:#8a5a2e; --ink:#241708; --paper:#fbf7f0; --soft:#f3e9d8; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#b59770; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pouch Math</h1>
+  <p class="lede">The 440 almonds at 12 almonds a pouch take 37 pouches, the last pouch holding 8 almonds.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Pouch Math counts an event's roasted almonds with multiplication, division and rounding-up: the pouches the almonds take, the weeks the stock lasts, the cost an almond, and the minutes the packing takes. It uses no named constants. It applies the counting as written, so it has not seen your almonds, your pouches or your venue and does not know whether the almonds will really stay fresh, the supplier will run out or the price will hold, and it gives no verdict that a pouch is worth its price or an almond is right for your event. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 440 almonds, 12 almonds a pouch, 32 almonds a week, $4.80 a pouch and 7 almonds a minute.</p>
+  <section>
+    <h2>The weeks truth</h2>
+    <p>The 440 almonds at 32 almonds a week last 13 full weeks with 24 almonds left for the next week.</p>
+  </section>
+  <section>
+    <h2>The cost truth</h2>
+    <p>The 37 pouches at $4.80 a pouch come to $177.60, $0.40 an almond.</p>
+  </section>
+  <section>
+    <h2>The time truth</h2>
+    <p>The 440 almonds at 7 almonds a minute take 63 minutes, 1 hour 3 minutes.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Pouch Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
